@@ -716,8 +716,8 @@ CMD_HELP.update({
         \nUsage: Translates text to speech for the language which is set.\nUse .lang tts <language code> to set language for tts. (Default is English.)'
 })
 CMD_HELP.update({
-    'trt':
-    '.trt <text> [or reply]\
+    'tr':
+    '.tr <text> [or reply]\
         \nUsage: Translates text to the language which is set.\nUse .lang trt <language code> to set language for trt. (Default is English)'
 })
 CMD_HELP.update({'yt': '.yt <text>\
