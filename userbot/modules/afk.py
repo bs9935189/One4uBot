@@ -51,7 +51,7 @@ async def set_afk(afk_e):
     afk_start = start_1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_e.edit(f"**OPLEN SEK BOSS!!**\
+        await afk_e.edit("**OPLEN SEK BOSS!!**\
         \nReason: `{string}`")
     else:
         await afk_e.edit("**OPLEN SEK BOSS!!**")
@@ -241,9 +241,9 @@ async def afk_on_pm(sender):
 
 CMD_HELP.update({
     "afk":
-    ".afk [Optional Reason]\
+    ".off [Optional Reason]\
 \nUsage: Sets you as afk.\nReplies to anyone who tags/PM's you telling them that you are AFK(reason).\
-\n\n.unafk\
+\n\n.on\
 \nUsage: Back from afk state\
 "
 })
